@@ -1,0 +1,8 @@
+1,Milk,56,100
+2,Biscuit,35,100
+3,Cake,20,100
+4,Mixture,55,100
+5,Papad,30,100
+6,Brush,25,100
+7,ToothPaste,95,100
+8,Soap,45,100
