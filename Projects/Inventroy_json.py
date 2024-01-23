@@ -4,7 +4,7 @@ import json
 import time
 
 #loading data from Json
-file = open('/home/om/Desktop/Data science/Data Toolkit/Inventory Management/Inventory_record.json','r')
+file = open('/home/om/Desktop/Data science/Projects/Inventory_record.json','r')
 data = file.read()
 record =json.loads(data)
 file.close()
@@ -110,7 +110,7 @@ else:
     print('Sorry we do not have that product')
 
 #updating sale
-file = open('/home/om/Desktop/Data science/Data Toolkit/Inventory Management/Sales.csv','a')
+file = open('/home/om/Desktop/Data science/Projects/Sales.csv','a')
 file.write(usr_detail)
 file.close()
 
@@ -120,5 +120,5 @@ file.close()
 
 #updating inventory
 obj = json.dumps(record)
-file = open('/home/om/Desktop/Data science/Data Toolkit/Inventory Management/Inventory_record.json','w')
+file = open('/home/om/Desktop/Data science/Projects/Inventory_record.json','w')
 file.write(obj)
