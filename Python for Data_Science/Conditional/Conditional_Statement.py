@@ -23,3 +23,5 @@ elif n<0:
 else:
     print('{} is zero'.format(n))
 print('*'*50)
+if __name__ == '__main__':
+    print('Main code is executing')
