@@ -10,6 +10,8 @@ class Student:
         self.age = age
         self.id = id
         self.course = course
+    def setAge(self,age):
+        self.age = age
     def Details(self):
         detail = self.name+','+str(self.age)+','+str(self.id)+','+str(self.course)
         return detail
