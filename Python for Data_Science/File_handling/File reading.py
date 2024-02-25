@@ -1,9 +1,10 @@
+#opening file in read format to get data from file
 file = open('Mark.txt','r')
 txt = file.read()
 txt
 
 #text processing
-##peragraph
+##paragraph
 per = txt.split('\n\n')
 print('no of paragraph: ',len(per))
 
@@ -53,3 +54,6 @@ file = open('Multiple string.txt','w+')
 # file.writelines(l) for l = ['Om','Praksh','Kumar'] 
 txt = file.read()
 print(txt)
+
+# closing a file
+file.close()
